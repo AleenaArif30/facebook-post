@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    background-image: url("https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg");
+}
+
+
+
+.com {
+    max-width: 500px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 40px;
+}
+.text {
+    
+    background-color: whitesmoke;
+}
+#card {
+    max-width: 400px;
+    margin: auto;
+    display: none;
+    border: 2px solid black;
+}
+
+.style{
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    background-color: beige;
+    
+}
+
+
+
+.tx{
+    display: none;
+}
+.ok{
+    display: none;
+}
+
+#post{
+    color: blue;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+}
+
+.last{
+    max-width: 500px;
+    height: auto;
+    border: 1px solid black;
+}
+#fileinput{
+    display: none;
+}
+
+
+marquee {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: black;
+}

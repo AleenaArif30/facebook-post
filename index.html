@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKrFhY-ljA-u7J5IMWeTv8zmpBx4PP9nQMw&s"
+          alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Post
+      </a>
+    </div>
+  </nav>
+  <br><br>
+  <div class="com" id="com">
+    <form id="facebook">
+      <div class="mb-3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs_QXKdZ7TSUrY7KrMNM-i6X7O8ac5gSaJMA&s" alt=""
+          width="10%" height="" style="border-radius: 20px;">
+        <label for="exampleInputEmail1" class="form-label">Alina Arif</label><br> <br>
+
+      </div>
+      <div class="mb-3">
+        <textarea id="area" cols="40" rows="10" placeholder="What's on your mind" class="text form-control"></textarea>
+      </div>
+
+      <div class="container last">
+        <div class="row">
+          <div class="col-6">
+            <button type="submit" class="btn btn-primary" id="post">Post</button>
+
+          </div>
+          <div class="col-3">
+            <label for="fileinput" id="customfile">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-9vs5wR9kR3GAhlPgs99NX05Kv-S5A2xm4w&s"
+                alt="" width="45%">
+            </label>
+            <input type="file" id="fileinput">
+          </div>
+          <div class="col-3">
+            <a href="https://www.google.com/maps"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuhIZ69OMvTAdMTcfWSFwk9QsXUfHEqXOMRg&s" alt="" width="45%" id="loc"></a>
+          </div>
+        </div>
+      </div> <br> <br>
+
+    </form>
+  </div>
+  <br><br>
+  <div class="card" id="card">
+    <div class="card-header">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs_QXKdZ7TSUrY7KrMNM-i6X7O8ac5gSaJMA&s" alt=""
+        width="10%" height="" style="border-radius: 20px;">
+      <span id="time"> Alina Arif 
+        <a href="https://www.google.com/maps/place/Gharibabad+Malir+Cantonment,+Karachi,+Karachi+City,+Sindh/@24.8973563,67.2177652,15z/data=!3m1!4b1!4m6!3m5!1s0x3eb3375aacada597:0x8e5e5b6be52c37d4!8m2!3d24.8937334!4d67.2162619!16zL20vMDlwMWRu?entry=ttu"><marquee behavior="scroll" direction="left" id="dir"></marquee></a>
+      </span>
+      
+    </div>
+    <div class="card-body">
+      <h5 class="card-title title" id="cardTitle"></h5>
+      <p class="card-text" id="titletext"></p><br>
+      <div class="container">
+        <div class="row">
+          <div class="col-6"><button class="style " id="like" onclick="like()"><img
+                src="https://seeklogo.com/images/F/facebook-like-logo-32FAB6926D-seeklogo.com.png" alt=""
+                width="50%"></button></div>
+          <div class="col-6"><button class="style" id="comments" onclick="comments()">Comments</button></div>
+        </div>
+      </div>
+
+
+    </div>
+    <br>
+    <textarea name="" id="tx" rows="2" cols="52" placeholder="comments" class="tx"></textarea><br><button class="ok"
+      id="ok" onclick="done()">Ok</button>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
